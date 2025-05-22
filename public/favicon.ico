@@ -1,0 +1,10 @@
+[
+    {
+        "command_name": "Editor.edit_file_by_replace",
+        "args": {
+            "file_name": "/data/chats/iol8zd/workspace/react_template/src/pages/Welcome.jsx",
+            "to_replace": "  return (\n    <div className=\"min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100\">",
+            "new_content": "  return (\n    <div className=\"min-h-screen bg-navy-blue\" style={{ backgroundColor: '#0A2647' }}>"
+        }
+    }
+]
