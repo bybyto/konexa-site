@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: konexa-site
@@ -6,3 +7,13 @@ services:
     staticPublishPath: dist
     nodeVersion: 16
     autoDeploy: true
+=======
+services:
+  - type: web
+    name: konexa-site
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    nodeVersion: 16
+    autoDeploy: true
+>>>>>>> 8035b01808886646174d38fb478d5b50e48b53b0
